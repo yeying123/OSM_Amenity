@@ -1,0 +1,75 @@
+Key,Value,Category,Comment
+amenity,bar,Food,"Bar is a purpose-built commercial establishment that sells alcoholic drinks to be consumed on the premises. They are characterised by a noisy and vibrant atmosphere, similar to a party and usually don't sell food. See also the description of the tags amenity=pub;bar;restaurant for a distinction between these."
+amenity,bbq,Food,"BBQ or Barbecue is a permanently built grill for cooking food, which is most typically used outdoors by the public. For example these may be found in city parks or at beaches. Use the tag fuel=* to specify the source of heating, such as fuel=wood;electric;charcoal. For mapping nearby table and chairs, see also the tag tourism=picnic_site. For mapping campfires and firepits, instead use the tag leisure=firepit."
+amenity,biergarten,Food,"Biergarten or beer garden is an open-air area where alcoholic beverages along with food is prepared and served. See also the description of the tags amenity=pub;bar;restaurant. A biergarten can commonly be found attached to a beer hall, pub, bar, or restaurant. In this case, you can use biergarten=yes additional to amenity=pub;bar;restaurant."
+amenity,cafe,Food,"Cafe is generally an informal place that offers casual meals and beverages; typically, the focus is on coffee or tea. Also known as a coffeehouse/shop, bistro or sidewalk cafe. The kind of food served may be mapped with the tags cuisine=* and diet=*. See also the tags amenity=restaurant;bar;fast_food."
+amenity,fast_food,Food,Fast food restaurant (see also amenity=restaurant). The kind of food served can be tagged with cuisine=* and diet=*.
+amenity,food_court,Food,"An area with several different restaurant food counters and a shared eating area. Commonly found in malls, airports, etc."
+amenity,ice_cream,Food,Ice cream shop or ice cream parlour. A place that sells ice cream and frozen yoghurt over the counter
+amenity,pub,Food,A place selling beer and other alcoholic drinks; may also provide food or accommodation (UK). See description of amenity=bar and amenity=pub for distinction between bar and pub
+amenity,restaurant,Food,"Restaurant (not fast food, see amenity=fast_food). The kind of food served can be tagged with cuisine=* and diet=*."
+amenity,college,Education,Campus or buildings of an institute of Further Education (aka continuing education)
+amenity,driving_school,Education,Driving School which offers motor vehicle driving lessons
+amenity,kindergarten,Education,"For children too young for a regular school (also known as preschool, playschool or nursery school), in some countries including afternoon supervision of primary school children."
+amenity,language_school,Education,Language School: an educational institution where one studies a foreign language.
+amenity,library,Education,"A public library (municipal, university, …) to borrow books from."
+amenity,toy_library,Education,"A place to borrow games and toys, or play with them on site."
+amenity,music_school,Education,"A music school, an educational institution specialized in the study, training, and research of music."
+amenity,school,Education,"School and grounds - primary, middle and seconday schools"
+amenity,university,Education,An university campus: an institute of higher education
+amenity,bicycle_parking,Transportation,Parking for bicycles
+amenity,bicycle_repair_station,Transportation,"General tools for self-service bicycle repairs, usually on the roadside; no service"
+amenity,bicycle_rental,Transportation,Rent a bicycle
+amenity,boat_rental,Transportation,Rent a Boat
+amenity,boat_sharing,Transportation,Share a Boat
+amenity,bus_station,Transportation,May also be tagged as public_transport=station.
+amenity,car_rental,Transportation,Rent a car
+amenity,car_sharing,Transportation,Share a car
+amenity,car_wash,Transportation,Wash a car
+amenity,vehicle_inspection,Transportation,Government vehicle inspection
+amenity,ferry_terminal,Transportation,Ferry terminal/stop. A place where people/cars/etc. can board and leave a ferry.
+amenity,taxi,Transportation,A place where taxis wait for passengers.
+amenity,bank,Financial,"Bank or credit union: a financial establishment where customers can deposit and withdraw money, take loans, make investments and transfer funds."
+amenity,bureau_de_change,Financial,"Bureau de change, money changer, currency exchange, Wechsel, cambio – a place to change foreign bank notes and travellers cheques."
+amenity,baby_hatch,Healthcare,"A place where a baby can be, out of necessity, anonymously left to be safely cared for and perhaps adopted."
+amenity,clinic,Healthcare,A medium-sized medical facility or health centre.
+amenity,dentist,Healthcare,A dentist practice / surgery.
+amenity,doctors,Healthcare,A doctor's practice / surgery.
+amenity,hospital,Healthcare,A hospital providing in-patient medical treatment. Often used in conjunction with emergency=* to note whether the medical centre has emergency facilities (A&E (brit.) or ER (am.))
+amenity,nursing_home,Healthcare,Discouraged tag for a home for disabled or elderly persons who need permanent care. Use amenity=social_facility + social_facility=nursing_home now.
+amenity,pharmacy,Healthcare,Pharmacy: a shop where a pharmacist sells medications
+amenity,social_facility,Healthcare,"A facility that provides social services: group & nursing homes, workshops for the disabled, homeless shelters, etc."
+amenity,veterinary,Healthcare,"A place where a veterinary surgeon, also known as a veterinarian or vet, practices."
+amenity,arts_centre,Entertainment,A venue where a variety of arts are performed or conducted
+amenity,casino,Entertainment,"A gambling venue with at least one table game(e.g. roulette, blackjack) that takes bets on sporting and other events at agreed upon odds."
+amenity,cinema,Entertainment,A place where films are shown (US: movie theater)
+amenity,community_centre,Entertainment,"A place mostly used for local events, festivities and group activities; including special interest and special age groups. ."
+amenity,gambling,Entertainment,"A place for gambling, not being a shop=bookmaker, shop=lottery, amenity=casino, or leisure=adult_gaming_centre."
+amenity,nightclub,Entertainment,"A place to drink and dance (nightclub). The German word is ""Disco"" or ""Discothek"". Please don't confuse this with the German ""Nachtclub"" which is most likely amenity=stripclub."
+amenity,planetarium,Entertainment,A planetarium.
+amenity,social_centre,Entertainment,A place for free and not-for-profit activities.
+amenity,studio,Entertainment,TV radio or recording studio
+amenity,theatre,Entertainment,"A theatre or opera house where live performances occur, such as plays, musicals and formal concerts. Use amenity=cinema for movie theaters."
+amenity,animal_boarding,Others,"A facility where you, paying a fee, can bring your animal for a limited period of time (e.g. for holidays)"
+amenity,animal_shelter,Others,A shelter that recovers animals in trouble
+amenity,childcare,Others,A place where children of different ages are looked after which is not an amenity=kindergarten or preschool.
+amenity,conference_centre,Others,A large building that is used to hold a convention
+amenity,courthouse,Others,"A building home to a court of law, where justice is dispensed"
+amenity,crematorium,Others,A place where dead human bodies are burnt
+amenity,dive_centre,Others,A dive center is the base location where sports divers usually start scuba diving or make dive guided trips at new locations.
+amenity,embassy,Others,"An embassy, consulate or diplomatic office. Also see office=diplomatic"
+amenity,fire_station,Others,A station of a fire brigade
+amenity,grave_yard,Others,"A (smaller) place of burial, often you'll find a church nearby. Large places should be landuse=cemetery instead."
+amenity,gym,Others,Deprecated. Use leisure=fitness_centre or leisure=sports_centre instead. A place which houses exercise equipment for the purpose of physical exercise.
+amenity,marketplace,Others,A marketplace where goods and services are traded daily or weekly.
+amenity,monastery,Others,Monastery is the location of a monastery or a building in which monks and nuns live.
+amenity,place_of_worship,Others,"A church, mosque, or temple, etc. Note that you also need religion=*, usually denomination=* and preferably name=* as well as amenity=place_of_worship. See the article for details."
+amenity,police,Others,A police station where police officers patrol from and that is a first point of contact for civilians
+amenity,post_office,Others,Post office building with postal services
+amenity,prison,Others,A prison or jail where people are incarcerated before trial or after conviction
+amenity,public_building,Others,A generic public building. Don't use! See office=government.
+amenity,ranger_station,Others,"National Park visitor headquarters: official park visitor facility with police, visitor information, permit services, etc"
+amenity,refugee_site,Others,A human settlement sheltering refugees or internally displaced persons
+amenity,sauna,Others,Deprecated. For sauna use: leisure=sauna
+amenity,townhall,Others,"Building where the administration of a village, town or city may be located, or just a community meeting place"
+amenity,waste_transfer_station,Others,"A waste transfer station is a location that accepts, consolidates and transfers waste in bulk."
